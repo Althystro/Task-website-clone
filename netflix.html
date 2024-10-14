@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="styles.css" />
+    <title>Netflix</title>
+  </head>
+  <body>
+    <div class="bigDiv">
+      <div class="upperBar">
+        <div class="logoNetflixBox">
+          <img src="./assets/Netflix_Logo_PMS.png" alt="Netflix Logo" />
+        </div>
+        <div class="dropDown">
+          <form action="/action_page.php">
+            <select class="form-select" aria-label="Default select example">
+              <option selected>Arabic</option>
+              <option value="1">English</option>
+            </select>
+            <br /><br />
+          </form>
+          <div class="signin">
+            <button class="signIn" onclick="">Sign In</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="middleDiv">
+        <div class="mainContent">
+          <h1 class="title">Unlimited movies, TV shows, and more</h1>
+          <p class="description">Starts at USD 7.99. Cancel anytime.</p>
+          <p class="description" style="padding: 20px">
+            Ready to watch? Enter your email to create or restart your
+            membership.
+          </p>
+          <div class="input-container">
+            <input type="text" placeholder="Email address" class="input-bar" />
+            <button class="get-started">Get started ></button>
+          </div>
+        </div>
+      </div>
+      <div class="separator"></div>
+      <div class="bottomDiv">
+        <div class="trending">
+          <h1>Trending now</h1>
+        </div>
+
+        <div class="movie-filter">
+          <form action="/action_page.php">
+            <select
+              class="form-select w-100"
+              aria-label="Default select example"
+            >
+              <option selected>Kuwait</option>
+              <option value="1">Global</option>
+            </select>
+          </form>
+          <form action="/action_page.php">
+            <select
+              class="form-select w-100"
+              aria-label="Default select example"
+            >
+              <option selected>Movies</option>
+              <option value="1">TV-Movie</option>
+            </select>
+          </form>
+        </div>
+
+        <div class="movies">
+          <div class="scrollmenu1">
+            <div class="movie-card">
+              <img src="./assets/movies/Frame 1.png" alt="Movie 1" />
+            </div>
+            <div class="movie-card">
+              <img src="./assets/movies/Frame 2.png" alt="Movie 2" />
+            </div>
+            <div class="movie-card">
+              <img src="./assets/movies/Frame 3.png" alt="Movie 3" />
+            </div>
+            <div class="movie-card">
+              <img src="./assets/movies/Frame 4.png" alt="Movie 4" />
+            </div>
+            <div class="movie-card">
+              <img src="./assets/movies/Frame 5.png" alt="Movie 5" />
+            </div>
+            <div class="movie-card">
+              <img src="./assets/movies/Frame 6.png" alt="Movie 6" />
+            </div>
+            <div class="movie-card">
+              <img src="./assets/movies/Frame 7.png" alt="Movie 7" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
